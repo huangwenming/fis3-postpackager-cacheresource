@@ -1,10 +1,12 @@
 A fis3 plugin to optimize the page loading speed by localstorage
-# [fis3](https://github.com/fex-team/fis3)-postpackager-cacheresource [![NPM version][npm-image]][npm-url]
+# [fis3](https://github.com/fex-team/fis3)-postpackager-cacheresource ![NPM version][npm-image](https://www.npmjs.com/package/fis3-postpackager-cacheresource)
  
 ## Description
-1.This is a FIS3 plugin to optimize the page loading speed combined with [fis3-postpackager-loader](https://github.com/fex-team/fis3-postpackager-loader).
-2.The key method to optimize the page loading speed:
-'The page will check whether there are corresponding resources in localstorage. If it exits, the page will load the resources from localstorage, otherwise, the page will send requests to the server to get resources. When the at resources are loaded, the page will push the resources to localstorage.''
+### 1.This is a FIS3 plugin to optimize the page loading speed combined with [fis3-postpackager-loader](https://github.com/fex-team/fis3-postpackager-loader).
+
+### 2.The key method to optimize the page loading speed:
+
+`The page will check whether there are corresponding resources in localstorage. If it exits, the page will load the resources from localstorage, otherwise, the page will send requests to the server to get resources. When the at resources are loaded, the page will push the resources to localstorage.`
  
 ## Installation
  
@@ -95,6 +97,5 @@ function IncludeJS(sId, fileUrl, source) {
  
 # License
  MIT © 2016 huangwenming (1205597228@qq.com)
+[npm-image]: https://badge.fury.io/js/fis3-preprocessor-px2rem.svg
 
- [npm-image]: https://badge.fury.io/js/fis3-preprocessor-px2rem.svg
- [npm-url]: https://www.npmjs.com/package/fis3-postpackager-cacheresource
