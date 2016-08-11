@@ -1,0 +1,43 @@
+{
+  "name": "fis3-postpackager-cacheresource",
+  "version": "1.0.3",
+  "description": "A fis3 plugin to optimize the page loading speed by localstorage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "huangwenming"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/huangwenming/fis3-postpackager-cacheresource.git"
+  },
+  "license": "ISC",
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/huangwenming/fis3-postpackager-cacheresource/issues"
+  },
+  "homepage": "https://github.com/huangwenming/fis3-postpackager-cacheresource#readme",
+  "_id": "fis3-postpackager-cacheresource@1.0.0",
+  "_shasum": "afb855c0bcec2693d473b583fe30523f7b876d74",
+  "_from": "fis3-postpackager-cacheresource@>=1.0.0 <2.0.0",
+  "_npmVersion": "2.15.8",
+  "_nodeVersion": "4.4.7",
+  "_npmUser": {
+    "name": "huangwenming",
+    "email": "1205597228@qq.com"
+  },
+  "dist": {
+    "shasum": "afb855c0bcec2693d473b583fe30523f7b876d74",
+    "tarball": "http://registry.npmjs.org/fis3-postpackager-cacheresource/-/fis3-postpackager-cacheresource-1.0.3.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "huangwenming",
+      "email": "1205597228@qq.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/fis3-postpackager-cacheresource/-/fis3-postpackager-cacheresource-1.0.3.tgz"
+}
