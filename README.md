@@ -1,34 +1,35 @@
 A fis3 plugin to optimize the page loading speed by localstorage
- # [fis3](https://github.com/fex-team/fis3)-postpackager-cacheresource [![NPM version][npm-image]][npm-url]
+# [fis3](https://github.com/fex-team/fis3)-postpackager-cacheresource [![NPM version][npm-image]][npm-url]
  
- ## Description
+## Description
 1.This is a FIS3 plugin to optimize the page loading speed combined with [fis3-postpackager-loader](https://github.com/fex-team/fis3-postpackager-loader).
 2.The key method to optimize the page loading speed:
-The page will check whether there are corresponding resources in localstorage. If it exits, the page will load the resources from localstorage, otherwise, the page will send requests to the server to get resources. When the at resources are loaded, the page will push the resources to localstorage.
+'The page will check whether there are corresponding resources in localstorage. If it exits, the page will load the resources from localstorage, otherwise, the page will send requests to the server to get resources. When the at resources are loaded, the page will push the resources to localstorage.''
  
- ## Installation
+## Installation
  
  Run `npm install fis3-postpackager-cacheresource`
  
- ## Usage
+## Usage
  
- ```js
+```js
 fis.match('::package', {
         postpackager: [fis.plugin('loader', {}),fis.plugin('replacescript', {})]
     });
+```
 
- ## Example
+## Example
 
- ### Pre processing
+### Pre processing
 
- ```html
+```html
 <script type="text/javascript" src="/games/newbattle_2463497.js"></script>
 <script src="/games/static/libs/pano-webgl.js"></script> 
 ```
 
- ### After processing
+### After processing
 
- ```html
+ ``html
 <script ls_id="/games/newbattle_2463497.js">
 	if (localStorage) {
 		var scriptFromCache = localStorage.getItem("/games/newbattle_2463497.js");
@@ -57,10 +58,10 @@ fis.match('::package', {
 		scriptDom.setAttribute("src","/games/static/libs/pano-webgl.js");
 	}
 </script>
- ```
- #### The AjaxPage function
+```
+#### The AjaxPage function
 
- ```js
+```js
  function GetHttpRequest(){
 	if ( window.XMLHttpRequest )
 		return new XMLHttpRequest();
@@ -92,7 +93,8 @@ function IncludeJS(sId, fileUrl, source) {
 }
 ```		
  
- # License
+# License
  MIT © 2016 huangwenming (1205597228@qq.com)
+
  [npm-image]: https://badge.fury.io/js/fis3-preprocessor-px2rem.svg
  [npm-url]: https://www.npmjs.com/package/fis3-postpackager-cacheresource
