@@ -37,7 +37,8 @@ function replacePackager(ret, pack, settings, opt) {
             + 'if (( source != null ) && ( !document.getElementById(sId) )) {'
             + 'var oHead = document.getElementsByTagName("HEAD").item(0);'
             + 'var oScript = document.createElement("script"); oScript.type = "text/javascript";'
-            + 'oScript.id = sId; oScript.defer = true; oScript.text = source; localStorage.setItem(sId, source);'
+            + 'oScript.id = sId; oScript.defer = true; oScript.text = source;'
+            + 'try {localStorage.setItem(sId, source);} catch (e) {}'
             + 'oHead.appendChild(oScript);}}';
         content = content.replace(scriptReg, function (script) {
             var result = '';

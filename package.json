@@ -1,6 +1,6 @@
 {
   "name": "fis3-postpackager-cacheresource",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "description": "A fis3 plugin to optimize the page loading speed by localstorage",
   "main": "index.js",
   "scripts": {
