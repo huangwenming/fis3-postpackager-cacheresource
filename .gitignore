@@ -1,0 +1,11 @@
+#ignore
+*.zip
+*.rar
+*.via
+*.tmp
+*.err
+/node_modules
+/dist
+.DS_Store
+.idea/
+output/
