@@ -1,6 +1,6 @@
 {
   "name": "fis3-postpackager-cacheresource",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A fis3 plugin to optimize the page loading speed by localstorage",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
   },
   "dist": {
     "shasum": "afb855c0bcec2693d473b583fe30523f7b876d74",
-    "tarball": "http://registry.npmjs.org/fis3-postpackager-cacheresource/-/fis3-postpackager-cacheresource-1.0.3.tgz"
+    "tarball": "http://registry.npmjs.org/fis3-postpackager-cacheresource/-/fis3-postpackager-cacheresource-1.0.8.tgz"
   },
   "maintainers": [
     {
@@ -39,5 +39,5 @@
     }
   ],
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/fis3-postpackager-cacheresource/-/fis3-postpackager-cacheresource-1.0.3.tgz"
+  "_resolved": "https://registry.npmjs.org/fis3-postpackager-cacheresource/-/fis3-postpackager-cacheresource-1.0.8.tgz"
 }

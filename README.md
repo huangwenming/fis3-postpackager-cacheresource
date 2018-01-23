@@ -1,5 +1,5 @@
 A fis3 plugin to optimize the page loading speed by localstorage
-# [fis3](https://github.com/fex-team/fis3)-postpackager-cacheresource [![NPM version][npm-image]](https://www.npmjs.com/package/fis3-postpackager-cacheresource)
+# [fis3](https://github.com/fex-team/fis3)-postpackager-cacheresource [NPM version](https://www.npmjs.com/package/fis3-postpackager-cacheresource)
  
 ## Description
 ### 1.This is a FIS3 plugin to optimize the page loading speed combined with [fis3-postpackager-loader](https://github.com/fex-team/fis3-postpackager-loader).
@@ -16,7 +16,7 @@ A fis3 plugin to optimize the page loading speed by localstorage
  
 ```js
 fis.match('::package', {
-        postpackager: [fis.plugin('loader', {}),fis.plugin('replacescript', {})]
+        postpackager: [fis.plugin('loader', {}),fis.plugin('cacheresource', {})]
     });
 ```
 
@@ -97,5 +97,4 @@ function IncludeJS(sId, fileUrl, source) {
  
 # License
  MIT © 2016 huangwenming (1205597228@qq.com)
-[npm-image]: https://badge.fury.io/js/fis3-preprocessor-px2rem.svg
 
